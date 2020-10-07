@@ -1,5 +1,7 @@
 import React from "react";
+import Calendar from "./calendar";
+import "./styles.css";
 
-export default function App() {
-	return <div>Starting here</div>
+export default function () {
+  return <Calendar />;
 }
